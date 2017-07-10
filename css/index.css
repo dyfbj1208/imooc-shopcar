@@ -1,0 +1,284 @@
+html{font-size: 52%;}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.header{
+	background-color:#000;
+	height:6rem;
+	text-align: center;
+}
+.head-left{
+	float: left;
+	list-style: none;
+	font-size:2rem;
+}
+.head-left li{
+	float:left;
+	width: 8rem;
+	line-height: 6rem;
+}
+.head-left li+li:hover{
+	background-color:#363c41
+}
+.head-left li:first-child{
+	width:14rem;
+	height:6rem;
+	cursor: pointer;
+}
+.head-left li:first-child img{
+	vertical-align: middle;
+}
+
+.header .icn-new{
+	width:.1.2rem;
+	height:1.2rem;
+	display:inline-block;
+	position:position;
+	background:url(../img/icon-new.png) no-repeat;
+}
+
+.head-right{
+	float:right;
+	list-style: none;
+}
+.head-right li{
+	float:left;
+	line-height: 6rem;
+	width:6rem;
+}
+.head-right li+li:hover{
+	background: #363c41;
+}
+.head-right li:first-child{
+	width:26rem;
+}
+
+.head-right li input.search{
+	outline: none;
+	border: none;
+	width: 20rem;
+	height: 2rem;
+	font-size: 2rem;
+	border-bottom:.2rem solid #363c41;
+	background-color: #010101;
+	color:#fff;
+}
+
+
+.search+div{
+	width: 2rem;
+	height: 2rem;
+	float:right;
+	margin-top: 2rem;
+	margin-right: 2rem;
+	background: url(../img/icon-1-sprite_W22.png) no-repeat;
+	cursor: pointer;
+}
+.item-1{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: url(../img/icon-1-sprite_W22.png) no-repeat 0 -42px;
+	margin-bottom:-.5rem;
+}
+.item-2{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: url(../img/icon-1-sprite_W22.png) no-repeat 0 -62px;
+	margin-bottom:-.5rem;
+}
+.item-3{
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.banner{
+	clear: both;
+	height: 16rem;
+	background: url(../img/cart-header-bg.jpg);
+}
+.banner h1{
+	margin: 0;
+	padding: 4rem 0 0 40rem;
+	font-size: 5rem;
+	font-weight: bold;
+}
+.shopcar{
+	width: 104rem;
+	height: 54rem;
+	background: #fff;
+
+	margin-left: 35rem;
+	margin-top: -5rem;
+	box-shadow: 0 0 .2rem #ccc;
+}
+.shopcar table{
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: left;
+	border-collapse: collapse;
+		border: .2rem solid #dbdbdb;
+}
+.shopcar table tr:first-child{
+	background: #ebebeb;
+	height:6rem; 
+}
+.col-1{
+	width: 7rem;
+	padding-left: 1rem;
+}
+.col-2{
+	width:32rem;
+}
+.col-2 span{
+	color:#ccc;
+	position: relative;
+	top: -3rem;
+}
+.col-3{
+	color:red;
+}
+.shopcar table tr:first-child .col-3{
+	color: #000;
+}
+.cor-3,.col-4{
+	width: 22rem;
+	text-align: center;
+}
+.col-5,.col-6{
+	width: 19rem;
+	text-align: center;
+}
+.shopcar table tr:first-child .col-1 input{
+	margin-right: 1rem;
+}
+.shopcar table tr+tr{
+	height: 12rem;
+	border-bottom: .2px solid #dbdbdb;
+}
+.col-5 input{
+	width: 2rem;
+	height: 2rem;
+	font-size: 2rem;
+	outline: none;
+	padding-left: 1rem;
+}
+.col-4{
+	color: red;
+}
+.shopcar table tr:first-child .col-4{
+	color: #000;
+}
+.col-5 span{
+	border: .1rem solid #ccc;
+	margin: 0 .3rem;
+	cursor: pointer;
+}
+.shopcar-add{
+	margin-top: 3rem;
+	height: 5rem;
+	border: .2rem solid #dbdbdb;
+	font-size: 2rem;
+	line-height: 5rem
+}
+.shopcar-add span{
+	color: red;
+}
+
+.shopcar-add input{
+	width: 12rem;
+	height: 5rem;
+	font-size: 2rem;
+	background:red;
+	color: #fff; 
+	border: none;
+	float: right;
+	margin-left: 1rem;
+}
+.shopcar-add .sum{
+	float: right;
+}
+.footer{
+	background:#010101;
+	height: 10rem;
+	clear:both;
+	color:#aaa;
+	position:relative;
+}
+.footer-ul li{
+	float:left;
+	width:6rem;
+	height:2rem;
+	font-size:1.5rem;
+	list-style:none;
+}
+.footer-ul li a{
+	color: #ccc;
+}
+.footer-ul li a:hover{
+	color: #fff;
+}
+.footer-ul{
+	padding-left:40rem;
+	padding-top: 3rem;
+	float: left;
+}
+
+.footer-p{
+ 	clear:both;
+ 	padding-left:40rem;
+ }
+ .footer-nav{
+ 	background:#fff;
+}
+.footer-ul li:last-child{
+	margin-left:30rem;
+	width:9rem;
+}
+#chat-1{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../img/footer-sprite.png) 0 -279px no-repeat;
+	opacity: .5;
+	position:relative;
+}
+
+#chat-2{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../img/footer-sprite.png) 0 -321px no-repeat;
+	opacity: .5;
+}
+#chat-3{
+	display:inline-block;
+	width:32px;
+	height:32px;
+	background:url(../img/footer-sprite.png) 0 -363px no-repeat;
+	opacity: .5;
+}
+#chat-1:hover,#chat-2:hover,#chat-3:hover{
+	opacity:1;
+}
+.flw-weixin-box:hover{
+    position: relative;
+    display: block;
+    width: 170px;
+    height: 220px;
+    left: -69px;
+    bottom: 35px;
+    background: url(../img/footer-sprite.png) no-repeat 0 0;
+    z-index: 3;
+    background-position: 0 -279px;
+}
+
